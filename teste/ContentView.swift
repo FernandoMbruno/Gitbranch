@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var nome = ""
+    @State private var teste = ""
     var body: some View {
-        TextField("Nome", text: $nome)
+        TextField("Nome", text: $teste)
     }
 }
 
